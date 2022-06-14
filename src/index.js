@@ -6,20 +6,32 @@ const container = document.getElementById('root');  //setting up variables for r
 const root = createRoot(container);
 
 function Header() {
-  return(
-    <div>
-        <header>
+    return(
+    <header>
         <nav>
-        <img src={pic} alt="A logo of a mountain" width="100px"/>
+          <img src={pic} alt="A logo of a mountain" width="100px"/>
         </nav> 
-        </header>
+    </header>
+    )
+}
+
+function Footer() {
+    return(
         <footer>
             <small>*_*</small>
         </footer>
-    </div>
-  )
-} // logo at top left as a react component
+    )
+}
+
+function Page() {
+    return(
+        <div>
+          <Header />  
+          <Footer />
+        </div>
+    )
+  } // Put 'em all together
 
 root.render(
-    <Header />,
-) //render it! The < /> turns it into a component
+    <Page />,
+) //render it!
