@@ -8,7 +8,14 @@ const root = createRoot(container);
 function Header() {
   return(
     <div>
-        <img src={pic} alt="A logo of a mountain" width="100px"/> 
+        <header>
+        <nav>
+        <img src={pic} alt="A logo of a mountain" width="100px"/>
+        </nav> 
+        </header>
+        <footer>
+            <small>*_*</small>
+        </footer>
     </div>
   )
 } // logo at top left as a react component
