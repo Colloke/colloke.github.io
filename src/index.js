@@ -18,7 +18,7 @@ function Header() {
         </footer>
     </div>
   )
-} // logo at top left as a react component
+} // everything as one big component
 
 root.render(
     <Header />,
