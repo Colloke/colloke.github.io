@@ -1,33 +1,21 @@
 import React from "react";
 import { createRoot } from 'react-dom/client';
 import pic from "./mountain1-01.jpg"; //import neccessary files
+import nav from "./index.css"
+import navitems from "./index.css"
+import { Header } from "./Header.js"
+import { MainContent } from "./MainContent";
 
 const container = document.getElementById('root');  //setting up variables for root.render later
 const root = createRoot(container);
 
-function Img() {
+export function Img() {
     return(
         <img src={pic} alt="A logo of a mountain" width="100px"/>
     )
 }
 
-function Header() {
-    return(
-    <header>
-        <nav>
-        <Img />
-        </nav>
-    </header>
-    )
-}
-
-function MainContent() {
-    return(
-        
-    )
-}
-
-function Footer() {
+export function Footer() {
     return(
         <footer>
             <small>*_*</small>
@@ -35,7 +23,7 @@ function Footer() {
     )
 }
 
-function Page() {
+export function Page() {
     return(
         <div>
           <Header />  
