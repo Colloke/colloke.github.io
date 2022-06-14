@@ -1,15 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import { createRoot } from 'react-dom/client';
+import pic from "./mountain1-01.jpg"
 
-function MainContent() {
-    return (
-        <h1>Hello world!</h1>
-    )
-}
+const container = document.getElementById('root');
+const root = createRoot(container);
 
-ReactDOM.render(
+const app = (
     <div>
-        <MainContent />
-    </div>,
-document.getElementById("root")
-);
+        <img src={pic} alt="A logo of a mountain" width="100px"/>
+    </div>
+)
+
+root.render(
+    app,
+)
