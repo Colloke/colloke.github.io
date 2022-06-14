@@ -5,13 +5,25 @@ import pic from "./mountain1-01.jpg"; //import neccessary files
 const container = document.getElementById('root');  //setting up variables for root.render later
 const root = createRoot(container);
 
+function Img() {
+    return(
+        <img src={pic} alt="A logo of a mountain" width="100px"/>
+    )
+}
+
 function Header() {
     return(
     <header>
         <nav>
-          <img src={pic} alt="A logo of a mountain" width="100px"/>
-        </nav> 
+        <Img />
+        </nav>
     </header>
+    )
+}
+
+function MainContent() {
+    return(
+        
     )
 }
 
@@ -27,6 +39,7 @@ function Page() {
     return(
         <div>
           <Header />  
+          <MainContent />
           <Footer />
         </div>
     )
