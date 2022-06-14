@@ -7,9 +7,9 @@ const root = createRoot(container);
 
 const logo = (
     <div>
-        <img src={pic} alt="A logo of a mountain" width="100px"/> //logo image top left
+        <img src={pic} alt="A logo of a mountain" width="100px"/> 
     </div>
-)
+) // logo top left
 
 root.render(
     logo,
