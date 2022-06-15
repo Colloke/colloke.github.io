@@ -1,10 +1,8 @@
 import React from "react";
 import { createRoot } from 'react-dom/client';
 import pic from "./mountain1-01.jpg"; //import neccessary files
-import nav from "./index.css"
-import navitems from "./index.css"
 import { Header } from "./Header.js"
-import { MainContent } from "./MainContent";
+import { MainContent } from "./MainContent.js";
 
 const container = document.getElementById('root');  //setting up variables for root.render later
 const root = createRoot(container);
