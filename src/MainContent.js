@@ -1,7 +1,10 @@
 import React from "react";
+import Button from "./button.js";
 
 export function MainContent() {
-    return(
-        <h1>Hi</h1>
+    return (
+        <div>
+        <Button />
+        </div>
     )
 }
