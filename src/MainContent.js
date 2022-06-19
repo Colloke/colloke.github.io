@@ -1,10 +1,10 @@
 import React from "react";
-import Button from "./button.js";
+import Random_Number_Generator from "./Random_Number_Generator/RandNumGen";
 
 export function MainContent() {
     return (
         <div>
-        <Button />
+        <Random_Number_Generator />
         </div>
     )
 }
