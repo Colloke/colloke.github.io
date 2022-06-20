@@ -1,6 +1,6 @@
 import React from "react";
 import { Img } from "./img.js";
-import nav from "./Header-and-Footer.css";
+import nav from "../index.css"
 
 export function Header() {
     return(

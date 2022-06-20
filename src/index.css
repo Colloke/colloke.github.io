@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navitems {
+    list-style: none;
+    display: flex;
+}
+
+.navitems > li {
+    padding: 10px;
+}
+
+.footer {
+    background:PapayaWhip;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.Random_Number_Generator_Css {
+    position: relative;
+    background-color: whitesmoke;
+    text-align: center;
+}
