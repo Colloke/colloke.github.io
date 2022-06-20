@@ -23,6 +23,7 @@
 
 .Random_Number_Generator_Css {
     position: relative;
+    height: 100%;
     background-color: whitesmoke;
     text-align: center;
 }
