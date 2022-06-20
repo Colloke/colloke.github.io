@@ -15,7 +15,7 @@ const Button = () => {
 
   return (
     <div>
-      <button onClick={handleClick}>Generate random number</button>
+      <button onClick={handleClick}>Random #</button>
       <h1>{num}</h1>
     </div>
   );
